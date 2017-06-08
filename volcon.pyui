@@ -1,0 +1,184 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 504}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{30, 300}, {260, 180}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{110, 202}, {100, 100}}",
+          "uuid" : "C5FEAC30-6FC9-4B78-B655-32DE71B3A812",
+          "background_color" : "RGBA(1.000000,0.950000,0.850000,1.000000)",
+          "class" : "View",
+          "corner_radius" : 1,
+          "name" : "ctrlbox"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{20, 285}, {200, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "name" : "label_cb",
+          "font_size" : 18,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "class" : "Label",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.891509,0.757783,0.490330,1.000000)",
+          "uuid" : "F616208D-924C-44F3-8F38-4C38E157486F",
+          "alignment" : "center",
+          "text" : "Volume Controller",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{120, 345}, {80, 30}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EB46A3FA-3374-46F0-A278-E060B392AFA4",
+          "name" : "up",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.721698,0.721698,0.721698,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "btn_down",
+          "class" : "Button",
+          "image_name" : "iob:arrow_up_b_24",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{220, 389}, {50, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EB46A3FA-3374-46F0-A278-E060B392AFA4",
+          "name" : "right",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.721698,0.721698,0.721698,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "btn_down",
+          "class" : "Button",
+          "image_name" : "iob:arrow_right_b_24",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{50, 389}, {50, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EB46A3FA-3374-46F0-A278-E060B392AFA4",
+          "name" : "left",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.721698,0.721698,0.721698,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "btn_down",
+          "class" : "Button",
+          "image_name" : "iob:arrow_left_b_24",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{120, 435}, {80, 30}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EB46A3FA-3374-46F0-A278-E060B392AFA4",
+          "name" : "down",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(0.721698,0.721698,0.721698,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "",
+          "action" : "btn_down",
+          "class" : "Button",
+          "image_name" : "iob:arrow_down_b_24",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{110, 385}, {100, 40}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "9BFC28AA-8F55-4AA1-A214-BC07638B7954",
+          "corner_radius" : 1,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{85, 236}, {150, 32}}",
+          "border_width" : 1,
+          "custom_attributes" : "",
+          "alignment" : "center",
+          "text" : "",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "volume",
+          "font_size" : 24
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{10, 16}, {300, 48}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{110, 202}, {100, 100}}",
+          "background_color" : "RGBA(0.800000,0.929412,1.000000,1.000000)",
+          "class" : "View",
+          "name" : "bgSlider",
+          "uuid" : "5BD8E8E3-396E-43C7-8ABD-8ECBEAB69E89"
+        }
+      }
+    ],
+    "attributes" : {
+      "background_color" : "RGBA(0.950000,0.983333,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "volcon",
+      "flex" : ""
+    }
+  }
+]
